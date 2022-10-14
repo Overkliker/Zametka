@@ -11,14 +11,14 @@ namespace Zametk
         public string name;
         public string description;
         public string date;
-        public string dateToComp;
+        public string deadline;
 
-        public Zametka(string name, string description, string date, string dateToComp)
+        public Zametka(string name, string date, string description, string dateToComp)
         {
             this.name = name;
             this.description = description;
             this.date = date;
-            this.dateToComp = dateToComp;
+            this.deadline = dateToComp;
         }
     }
 }
